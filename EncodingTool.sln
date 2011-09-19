@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Web Developer Express 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EncodingTool", "EncodingTool\EncodingTool.csproj", "{D8D214F4-0998-4794-BD0C-102B707F0771}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "EncodingTool.Web", "EncodingTool.Web\", "{864A497F-7E84-48A6-B24C-E914A8CB3B8D}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/EncodingTool.Web"
+		Debug.AspNetCompiler.PhysicalPath = "EncodingTool.Web\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\EncodingTool.Web\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/EncodingTool.Web"
+		Release.AspNetCompiler.PhysicalPath = "EncodingTool.Web\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\EncodingTool.Web\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "54506"
+		DefaultWebSiteLanguage = "Visual C#"
+		ProjOutputReferences = "{D8D214F4-0998-4794-BD0C-102B707F0771}|ClientBin|false;"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D8D214F4-0998-4794-BD0C-102B707F0771}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8D214F4-0998-4794-BD0C-102B707F0771}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8D214F4-0998-4794-BD0C-102B707F0771}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8D214F4-0998-4794-BD0C-102B707F0771}.Release|Any CPU.Build.0 = Release|Any CPU
+		{864A497F-7E84-48A6-B24C-E914A8CB3B8D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{864A497F-7E84-48A6-B24C-E914A8CB3B8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{864A497F-7E84-48A6-B24C-E914A8CB3B8D}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{864A497F-7E84-48A6-B24C-E914A8CB3B8D}.Release|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
